@@ -1,0 +1,9 @@
+p{
+    color:#8e7dfa;
+}
+button{
+    color:#8e7dfa;
+}
+::ng-deep .p-toolbar.pcomponent{
+    background-color: rgb(40 35 76);
+}

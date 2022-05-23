@@ -1,0 +1,11 @@
+<div class="grid">
+    <p class="col-12 content title">前端薪資調查報告</p>
+</div>
+<div class="grid">
+    <div class="col-3"></div>
+    <p-selectButton class="col-6" [options]="contentSelects" [(ngModel)]="chooseContentCode" optionLabel="name" optionValue="code"></p-selectButton>
+    <p-dropdown class="col-3" [options]="YearSelect" [(ngModel)]="chooseYearSelect" optionLabel="yearName"  optionValue="year"></p-dropdown>
+</div>
+<app-basic-data></app-basic-data>
+<router-outlet>
+</router-outlet>
