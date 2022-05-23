@@ -1,0 +1,10 @@
+.title{
+    font-size: 2em;
+    font-weight: 900;
+    text-align: center;
+    font-family: "cwTeXYen";
+}
+@font-face {
+    font-family: 'cwTeXYen';
+    src: url("../../../font/cwTeX.ttf");
+}
