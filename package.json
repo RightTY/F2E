@@ -19,11 +19,13 @@
     "@angular/platform-browser": "~13.3.0",
     "@angular/platform-browser-dynamic": "~13.3.0",
     "@angular/router": "~13.3.0",
+    "chart.js": "^3.7.1",
     "primeflex": "^3.2.0",
     "primeicons": "^5.0.0",
     "primeng": "^13.4.0",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
+    "typescript-linq": "^1.0.6",
     "typescript.list": "^6.7.0",
     "zone.js": "~0.11.4"
   },

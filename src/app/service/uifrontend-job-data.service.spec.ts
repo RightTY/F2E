@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { GetUIFrontendJobDataService } from './get-uifrontend-job-data.service';
+import { UIFrontendJobDataService } from './uifrontend-job-data.service';
 
 describe('GetUIFrontendJobDataService', () => {
-  let service: GetUIFrontendJobDataService;
+  let service: UIFrontendJobDataService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(GetUIFrontendJobDataService);
+    service = TestBed.inject(UIFrontendJobDataService);
   });
 
   it('should be created', () => {

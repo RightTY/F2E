@@ -12,6 +12,7 @@ import { SplitButtonModule } from 'primeng/splitbutton';
 import { SelectButtonModule } from 'primeng/selectbutton';
 import { FormsModule } from '@angular/forms';
 import { DropdownModule} from 'primeng/dropdown';
+import { ChartModule } from 'primeng/chart';
 
 import { HeaderComponent } from './header/header.component';
 import { ContentComponent } from './content/content.component';
@@ -39,7 +40,8 @@ import { SalaryIndustryComponent } from './content/salary-industry/salary-indust
     SelectButtonModule,
     FormsModule,
     DropdownModule,
-    HttpClientModule
+    HttpClientModule,
+    ChartModule
   ],
   providers: [],
   bootstrap: [AppComponent]

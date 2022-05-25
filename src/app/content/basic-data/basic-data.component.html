@@ -1,1 +1,6 @@
-<p>{{ frontendDatas | json }}</p>
+
+<div class="grid">
+    <div class="col-2"></div>
+    <p-chart type="bar" class="col-4"  [data]="basicData" [options]="basicOptions"></p-chart>
+    <div class="col-2"></div>
+</div>
